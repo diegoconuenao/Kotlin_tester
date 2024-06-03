@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
+//tester
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
@@ -42,6 +42,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     Testeos_KotlinTheme {
-        Greeting("Android")
+        Greeting("Androd")
     }
 }
